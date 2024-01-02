@@ -4,3 +4,6 @@
 
 # .env file (contains sensitive data)
 *.env
+
+# python venv
+.venv/
