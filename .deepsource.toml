@@ -1,0 +1,13 @@
+version = 1
+
+test_patterns = ["portfolio-web/app/**"]
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = ["react"]
+  environment = ["browser"]
+
+[[transformers]]
+name = "prettier"
