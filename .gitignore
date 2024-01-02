@@ -1,0 +1,6 @@
+# VSCode specific settings
+.vscode/
+.code-workspace
+
+# .env file (contains sensitive data)
+*.env
